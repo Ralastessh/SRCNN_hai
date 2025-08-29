@@ -24,6 +24,8 @@ SRCNN/
 python main.py
 ```
 * You have to add the datasets to 'data/DIV2K_519sampled'
+* If you’re using an NVIDIA GPU, you should change the backend from MPS to CUDA.
+  
 ## Result
 ### Loss
 <img width="1000" height="700" alt="Lossforallepochs" src="https://github.com/user-attachments/assets/d2b26f8d-a124-4619-acd3-62aa0ae7f08a" />
